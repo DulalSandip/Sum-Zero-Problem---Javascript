@@ -1,5 +1,6 @@
 // o(n) linear time complexity
-
+// Input = [-5, -4, -3, -2, 0, 2, 4, 6, 8]
+// output = [-4,4]
 function getSumZeroProblem(array) {
     let left = 0;
     let right = array.length - 1
@@ -18,4 +19,4 @@ function getSumZeroProblem(array) {
 
 const result = getSumZeroProblem([-5, -4, -3, -2, 0, 2, 4, 6, 8])
 
-console.log(result)
+console.log(result) // [-4,4]
